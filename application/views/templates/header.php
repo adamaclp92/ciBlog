@@ -2,6 +2,7 @@
     <head>
         <title>ciBlog</title>
         <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
+        <script src="https://cdn.ckeditor.com/ckeditor5/18.0.0/classic/ckeditor.js"></script>
         <style>
         .post-date{
             background: #f4f4f4;
@@ -27,6 +28,9 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="<?php echo base_url(); ?>posts">Blog </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo base_url(); ?>posts/create">Create Post </a>
       </li>
     </ul>
   </div>
